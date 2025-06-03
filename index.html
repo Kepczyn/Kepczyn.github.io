@@ -213,13 +213,67 @@
       </div>
     </section>
     <!-- Kontakt -->
-
-
+    <div class="row">
+      <section class="col-md-6">
+        <h2>Dane kontaktowe:</h2>
+          <div>
+            <h3><i class="bi bi-postcard-fill"></i> 09-402 Płock</h3>
+            <h3><i class="bi bi-geo-alt-fill"></i> ul. Kilińskiego 12</h3>
+            <h3><i class="bi bi-building"></i> Budynek B</h3>
+            <h3><i class="bi bi-telephone-forward-fill"></i> 24 366 41 51</h3>
+            <h3><i class="bi bi-envelope-at-fill"></i> ps@wlodkowic.pl</h3>
+          </div>
+      </section>
+      <section class="col-md-6">
+        <h3>Napisz do nas, wkrótce odpowiemy na podany adres.</h3>
+        <form method="post" action="mail:ps@wlodkowic.pl?subject=Kontakt">
+          <div>
+            <label for="content" class="form-label">Treść:</label>
+            <textarea name="content" id="content" class="form-control"></textarea>
+          </div>
+          <div>
+            <label for="e-mail" class="form-label">Adres e-mail:</label>
+            <div>
+              <input name="e-mail" id="e-mail" type="email" class="form-control" placeholder="nazwa@poczta.pl">
+              <button type="submit">Wyślij</button>
+            </div>
+          </div>
+        </form>        
+      </section>
+    </div>
     <!-- Stopka -->
-
-
-
-
+    <div class="row">
+      <section class="col-4 col-md-2 text-center">
+        <img src="img/SWPW_logo_small.png" alt="Godło Uczelni" class="img-fluid">
+      </section>
+      <section class="col-8 col-md-3">
+        <ul>
+          <li><a href="https://www.wlodkowic.pl" target="_blank">Strona uczelni</a></li>
+          <li><a href="https://uczelnia.wlodkowic.pl/wu" target="_blank">Wirtualna Uczelnia</a></li>
+          <li><a href="https://wlodek.wlodkowic.pl" target="_blank">Platforma e-learningowa</a></li>
+          <li><a href="https://kariera.wlodkowic.pl" target="_blank">Biuro Karier Zawodowych</a></li>
+          <li><a href="https://biblioteka.wlodkowic.pl" target="_blank">Biblioteka uczelniana</a></li>
+        </ul>
+      </section>
+      <section class="col-4 col-md-3">
+        <ul>
+          <li><a href="#">Regulamin</a></li>
+          <li><a href="#">Poznajmy się</a></li>
+          <li><a href="#">Działania</a></li>
+          <li><a href="#">Stypendia</a></li>
+          <li><a href="#">Uchwały</a></li>
+        </ul>
+      </section>
+      <section class="col-8 col-md-3">
+        <ul>
+          <li><a href="#">Kodeks etyki studenta</a></li>
+          <li><a href="#">Polityka prywatności</a></li>
+          <li><a href="#">Deklaracja dostępności</a></li>
+          <li><a href="#">Osoby z niepełnosprawnościami</a></li>
+          <li><a href="#">Redakcja serwisu</a></li>
+        </ul>
+      </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
