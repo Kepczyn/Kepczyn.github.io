@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top" id="menu">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img/hat64.png" alt="Początek strony"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,28 +20,29 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">O nas</a>
+                <a class="nav-link active" aria-current="page" href="#about">O nas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Działania</a>
+                <a class="nav-link" href="#actions">Działania</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Zespół</a>
+                <a class="nav-link" href="#team">Zespół</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Informacje</a>
+                <a class="nav-link" href="#relation">Informacje</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Opinie</a>
+                <a class="nav-link" href="#opinion">Opinie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                <a class="nav-link" href="#contact">Kontakt</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <!-- Sekcja hero -->
+    <main data-bs-spy="scroll" data-bs-target="#menu" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+      <!-- Sekcja hero -->
     <div class="row text-center align-items-center" id="hero">
         <section class="col-md-6 py-5">
             <h1>Parlament Studentów SWPW</h1>
@@ -187,7 +188,7 @@
     </div>
     <div class="triangle-bottom"></div>
     <!-- Opinie (testimonials) -->
-    <section class="testimonials">
+    <section class="testimonials" id="opinion">
       <div class="row py-3 align-items-center">
         <div class="col-4">
           <img src="img/testim01.png" alt="Studentka" class="img-fluid">
@@ -246,7 +247,7 @@
       </section>
     </div>
     <!-- Stopka -->
-    <div class="row">
+    <footer class="row">
       <section class="col-4 col-md-2 text-center">
         <img src="img/SWPW_logo_small.png" alt="Godło Uczelni" class="img-fluid">
       </section>
@@ -277,7 +278,7 @@
           <li><a href="#">Redakcja serwisu</a></li>
         </ul>
       </section>
-    </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
