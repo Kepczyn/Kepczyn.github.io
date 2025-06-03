@@ -3,6 +3,8 @@
     --my-color1: #5225bc;
     --my-color2: #f0c53a;
     --my-color3: #171717;
+    --my-color4: black;
+
     
     --my-color18: #12072b;
 
@@ -87,3 +89,56 @@ h1, h2, h3, h4 {
     transform: rotate(180deg);
 }
 
+/* sekcja Zespół */
+#team h3{
+    color: var(--my-color1);
+    font-weight: bold;
+}
+
+/* sekcja Relacje z wydarzeń */
+.relations{
+    background-color: var(--my-color3);
+}
+
+#relation .btn-primary{
+    background-color: #f0c53a;
+    color: var(--my-color4);
+    border: none;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px var(--my-color18);
+}
+
+#relation .btn-primary:hover{
+    font-weight: 600;
+    transition: all var(--my-transition-fast) ease;
+}
+
+.tobottom{
+    position: absolute;
+    bottom: 1em;
+}
+
+.info{
+    min-height: 530px;
+}
+
+
+@media (min-width: 992px) {
+    .relations .pt-lg-4 {
+        padding-top: 2em !important;
+    }
+}
+
+.triangle-top {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid var(--my-color3);
+    border-left: 100vw solid transparent;
+}
+
+.triangle-bottom {
+    width: 0;
+    height: 0;
+    border-top: 50px solid var(--my-color3);
+    border-right: 100vw solid transparent;
+}
