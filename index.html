@@ -187,40 +187,40 @@
     </div>
     <div class="triangle-bottom"></div>
     <!-- Opinie (testimonials) -->
-    <section>
-      <div class="row">
+    <section class="testimonials">
+      <div class="row py-3 align-items-center">
         <div class="col-4">
           <img src="img/testim01.png" alt="Studentka" class="img-fluid">
         </div>
-        <div class="col-8">
+        <div class="col-8 pe-5 fs-5 text-end">
           <p>Po raz pierwszy w życiu mogłam wziąć udział w Juwenaliach - super zabawa. A wszystko to dzięki naszym "parlamentarzystkom", które to tak fajnie zorganizowały.</p>
-          <p>Ania - Pedagogika</p>
+          <p><b>Ania</b> - Pedagogika</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row py-3 align-items-center"">
         <div class="col-4">
           <img src="img/testim02.png" alt="Student na wózku inwalidzkim" class="img-fluid">
         </div>
-        <div class="col-8">
+        <div class="col-8 pe-5 fs-5 text-end">
           <p>Dzięki koleżankom z Parlamentu Studentów nie miałam żadnego problemu z aklimatyzacją na Uczelni. Bardzo pomogły mi też w staraniach o stypendium dla osób z niepełnosprawnościami.</p>
-          <p>Piotr - Informatyka</p>
+          <p><b>Piotr</b> - Informatyka</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row py-3 align-items-center">
         <div class="col-4">
           <img src="img/testim03.png" alt="Studentka" class="img-fluid">
         </div>
-        <div class="col-8">
+        <div class="col-8 pe-5 fs-5 text-end">
           <p>Gdy zawaliłam przedmiot i musiałam zdawać egzamin komisyjny, przewodnicząca Parlamentu Studentów była członkiem komisji i wspierała mnie cały czas. Chyba dzieki niej egzamin okazał sie nie taki straszny, jak myslałam.</p>
-          <p>Ewa - Zarządzanie</p>
+          <p><b>Ewa</b> - Zarządzanie</p>
         </div>
       </div>
     </section>
     <!-- Kontakt -->
-    <div class="row">
-      <section class="col-md-6">
+    <div class="row" id="contact">
+      <section class="col-md-6 contact_address">
         <h2>Dane kontaktowe:</h2>
-          <div>
+          <div class="ps-3">
             <h3><i class="bi bi-postcard-fill"></i> 09-402 Płock</h3>
             <h3><i class="bi bi-geo-alt-fill"></i> ul. Kilińskiego 12</h3>
             <h3><i class="bi bi-building"></i> Budynek B</h3>
@@ -228,18 +228,18 @@
             <h3><i class="bi bi-envelope-at-fill"></i> ps@wlodkowic.pl</h3>
           </div>
       </section>
-      <section class="col-md-6">
+      <section class="col-md-6 contact_form">
         <h3>Napisz do nas, wkrótce odpowiemy na podany adres.</h3>
         <form method="post" action="mail:ps@wlodkowic.pl?subject=Kontakt">
           <div>
-            <label for="content" class="form-label">Treść:</label>
+            <label for="content" class="form-label fs-5">Treść:</label>
             <textarea name="content" id="content" class="form-control"></textarea>
           </div>
           <div>
-            <label for="e-mail" class="form-label">Adres e-mail:</label>
-            <div>
+            <label for="e-mail" class="form-label fs-5">Adres e-mail:</label>
+            <div class="d-flex justify-content-between">
               <input name="e-mail" id="e-mail" type="email" class="form-control" placeholder="nazwa@poczta.pl">
-              <button type="submit">Wyślij</button>
+              <button type="submit" class="btn btn-purple ms-2">Wyślij</button>
             </div>
           </div>
         </form>        
